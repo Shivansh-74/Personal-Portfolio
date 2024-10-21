@@ -6,7 +6,7 @@ export default function Home() {
     <div className=''>
     <div className="md:grid flex flex-col grid-cols-5 md:h-[80vh] h-[50vh] gap-3 bg-gradient-to-b from-amber-100 to-amber-50">
     <div className="content col-span-3  h-[100%] flex flex-col md:gap-5 gap-1 justify-center  " >
-    <div className='w-[75%] p-4 md:ml-20 mx-auto md:mt-2 mt-10'>
+    <div className='w-[80%] p-4 md:ml-20 mx-auto md:mt-2 mt-10'>
     <div className='md:h-[50%] h-[30%]'>
     <h1 className='md:text-5xl text-3xl font-bold md:text-left text-center cursor-pointer md:py-1 py-2'>I Am  Shivansh <br /> A <ReactTyped strings={["Frontend","Backend","Fullstack"]} typeSpeed={150} loop={true} backSpeed={120} className='text-orange-500'/>developer</h1>
     </div>
