@@ -12,7 +12,7 @@ export default function About() {
     items-center md:my-10 my-14">
     <div className=' w-[80%]  py-5 '>
     <h1 className='text-center text-4xl font-bold orange-500 '>About Me</h1>
-    <p className='text-[1.2em] text-gray-900 py-5 text-center '>My name is <span className="font-bold text-orange-500">Shivansh Vishwakarma,</span>currently pursuing a BCA at St. Aloysius College. I have developed proficiency in both frontend and backend skills, including HTML, CSS, JavaScript, React, Python, Django, and SQL. My goal is to become a skilled full stack developer, mastering both areas of development. </p>
+    <p className='text-[1.2em] text-gray-900 md:py-5 py-1 text-center '>My name is <span className="font-bold text-orange-500">Shivansh Vishwakarma,</span>currently pursuing a BCA at St. Aloysius College. I have developed proficiency in both frontend and backend skills, including HTML, CSS, JavaScript, React, Python, Django, and SQL. My goal is to become a skilled full stack developer, mastering both areas of development. </p>
 
     </div>
   <div className='w-[70%]'>
