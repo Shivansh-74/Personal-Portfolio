@@ -11,8 +11,8 @@ import { TbBrandCpp } from "react-icons/tb";
 export default function Skills() {
   return (
     <div className='w-[100%] bg-gradient-to-b from-amber-100 to-amber-50 md:py-6 py-8'>
-    <h1 className='text-4xl font-bold text-center pb-5'>Skills</h1>
-    <div className='py-3'>
+    <h1 className='text-4xl font-bold text-center md:pb-5 mt-2'>Skills</h1>
+    <div className='md:py-3 py-1'>
     <div className='w-[100%] text-center md:text-2xl text-2xl font-bold py-4 underline text-orange-800'>
     <h1>FRONT END SKILLS</h1>
     </div>
@@ -26,7 +26,7 @@ export default function Skills() {
     </div>
     </div>
     {/**Backend */}
-    <div className='py-6'>
+    <div className='md:py-3 py-1'>
     <div className='w-[100%] text-center text-2xl font-bold py-4 underline text-orange-800'>
     <h1>BACKEND SKILLS</h1>
     </div>
@@ -38,7 +38,7 @@ export default function Skills() {
     </div>
     </div>
     {/**Additional */}
-    <div className='py-6'>
+    <div className='md:py-3 py-1'>
     <div className='w-[100%] text-center text-2xl font-bold  underline text-orange-800 py-4'>
     <h1>ADDITIONAL SKILLS</h1>
     </div>
