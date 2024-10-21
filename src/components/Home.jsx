@@ -3,11 +3,11 @@ import { ReactTyped } from "react-typed";
 
 export default function Home() {
   return (
-    <div>
-    <div className="md:grid flex flex-col grid-cols-5 h-[80vh] gap-3 bg-gradient-to-b from-amber-100 to-amber-50">
+    <div className=''>
+    <div className="md:grid flex flex-col grid-cols-5 md:h-[80vh] h-[50vh] gap-3 bg-gradient-to-b from-amber-100 to-amber-50">
     <div className="content col-span-3  h-[100%] flex flex-col md:gap-5 gap-1 justify-center  " >
     <div className='w-[75%] p-4 md:ml-20 mx-auto md:mt-2 mt-10'>
-    <div>
+    <div className='md:h-[50%] h-[30%]'>
     <h1 className='md:text-5xl text-4xl font-bold md:text-left text-center cursor-pointer'>I Am  Shivansh <br /> A <ReactTyped strings={["Frontend","Backend","Fullstack"]} typeSpeed={150} loop={true} backSpeed={120} className='text-orange-500'/>developer</h1>
     </div>
     <div className='mt-6 text-gray-800'> 
@@ -20,7 +20,7 @@ export default function Home() {
     </div>
      
     </div>
-    <div className="image col-span-2  md:h-[100%] h-[70%]">
+    <div className="image col-span-2  md:h-[100%] ">
     <img src="https://img.freepik.com/premium-photo/3d-cartoon-man-working-laptop-office-isolated_906149-9638.jpg" alt="" className='mix-blend-multiply md:w-[100%] md:h-[90%] h-[80%] w-[70%] md:m-4 p-4 mx-auto mt-[-50px] '  />
     </div>
 
