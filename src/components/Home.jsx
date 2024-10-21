@@ -8,7 +8,7 @@ export default function Home() {
     <div className="content col-span-3  h-[100%] flex flex-col md:gap-5 gap-1 justify-center  " >
     <div className='w-[75%] p-4 md:ml-20 mx-auto md:mt-2 mt-10'>
     <div className='md:h-[50%] h-[30%]'>
-    <h1 className='md:text-5xl text-4xl font-bold md:text-left text-center cursor-pointer'>I Am  Shivansh <br /> A <ReactTyped strings={["Frontend","Backend","Fullstack"]} typeSpeed={150} loop={true} backSpeed={120} className='text-orange-500'/>developer</h1>
+    <h1 className='md:text-5xl text-3xl font-bold md:text-left text-center cursor-pointer md:py-1 py-2'>I Am  Shivansh <br /> A <ReactTyped strings={["Frontend","Backend","Fullstack"]} typeSpeed={150} loop={true} backSpeed={120} className='text-orange-500'/>developer</h1>
     </div>
     <div className='mt-6 text-gray-800'> 
     <p className='md:text-left text-center cursor-pointer'>"If we want users to like our software, we should design it to behave like a likeable person."</p>
